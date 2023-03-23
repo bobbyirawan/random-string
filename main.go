@@ -20,7 +20,6 @@ func randomString(n int) string {
 
 func main() {
 	rand.Seed(time.Now().UnixNano())
-
 	var n int
 	fmt.Print("Masukkan Panjang Karakter : ")
 	fmt.Scanln(&n)
